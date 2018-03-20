@@ -16,5 +16,6 @@ git push [-u] [origin] [master]    //推送分支上的所有内容
 git pull [origin] [master]         //拉取远程
 git checkout [-b] <分支名称>       //创建并且切换分支
 git checkout <分支名称>            //切换分支
-git branch <分支名称>              //查看当前分支[列出所有分支，当前分支钱会标有*号]
-
+git branch                         //查看当前分支[列出所有分支，当前分支钱会标有*号]
+git merge <被合并的分支名称>       //合并某个分支到当前分支
+git git branch -d <分支名称>       //删除分支
